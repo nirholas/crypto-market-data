@@ -4,6 +4,5 @@
   "title": "Crypto Market Data",
   "description": "Real-time crypto prices OHLCV orderbook - Bitcoin Ethereum 10000+ tokens",
   "keywords": ["crypto", "market-data", "prices", "ohlcv", "bitcoin", "ethereum"],
-  "repository": {"url": "https://github.com/nirholas/crypto-market-data", "source": "github"},
-  "packages": [{"registryType": "source", "identifier": "https://github.com/nirholas/crypto-market-data", "transport": {"type": "stdio"}}]
+  "repository": {"url": "https://github.com/nirholas/crypto-market-data", "source": "github"}
 }
