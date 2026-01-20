@@ -1,6 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.nirholas/crypto-market-data",
+  "version": "1.0.0",
   "title": "Crypto Market Data",
   "description": "Real-time crypto prices OHLCV orderbook - Bitcoin Ethereum 10000+ tokens",
   "keywords": ["crypto", "market-data", "prices", "ohlcv", "bitcoin", "ethereum"],
