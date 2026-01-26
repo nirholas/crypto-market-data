@@ -1,9 +1,24 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.nirholas/crypto-market-data",
-  "version": "1.0.0",
   "title": "Crypto Market Data",
-  "description": "Real-time crypto prices OHLCV orderbook - Bitcoin Ethereum 10000+ tokens",
-  "keywords": ["crypto", "market-data", "prices", "ohlcv", "bitcoin", "ethereum"],
-  "repository": {"url": "https://github.com/nirholas/crypto-market-data", "source": "github"}
+  "description": "Real-time crypto prices, OHLCV, orderbook - Bitcoin, Ethereum, 10000+ tokens",
+  "repository": {
+    "url": "https://github.com/nirholas/crypto-market-data",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "icons": {
+    "light": "https://raw.githubusercontent.com/nirholas/g1t/d9a0ee206b8136472c04384905999369f198b3c9/milady.svg",
+    "dark": "https://raw.githubusercontent.com/nirholas/g1t/d9a0ee206b8136472c04384905999369f198b3c9/bg.svg"
+  },
+  "packages": {
+    "npm": "lyra-web3-playground"
+  },
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "keywords": ["crypto", "market-data", "prices", "ohlcv", "orderbook", "bitcoin", "ethereum", "tokens", "mcp", "ai"],
+      "category": "Market Data"
+    }
+  }
 }
