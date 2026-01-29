@@ -1,5 +1,5 @@
 # Crypto Market Data
-
+ 
 Live cryptocurrency and DeFi market dashboard with data from CoinGecko and DeFiLlama.
 
 [Live Crypto Market Data Dashboard](https://nirholas.github.io/crypto-market-data) 
