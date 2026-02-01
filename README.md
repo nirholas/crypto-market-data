@@ -1,7 +1,7 @@
 # Crypto Market Data
  
 Live cryptocurrency and DeFi market dashboard with data from CoinGecko and DeFiLlama.
-
+ 
 [Live Crypto Market Data Dashboard](https://nirholas.github.io/crypto-market-data) 
 
 Cryptocurrency prices and market data. That's it! With a basic UI. I originally built this within [Lyra Web3 Playground](https://nirholas.github.io/crypto-market-data) and I thought it might be helpful for those looking for something very simple, a good learning experience to build + deploy, or maybe you're like me and just enjoy building and sharing simple yet useful creations. Live data, hooked up to CoinGecko and Defillama. 
