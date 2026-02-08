@@ -8,7 +8,7 @@ Cryptocurrency prices and market data. That's it! With a basic UI. I originally 
 
 ## Features
 
-- 🪙 **Cryptocurrencies** - Top coins by market cap with 7-day sparklines
+- 🪙 **Cryptocurrencies** - Top coins by market cap with 7-day sparklines 
 - 🏦 **DeFi Protocols** - Protocol TVL rankings from DeFiLlama
 - 📈 **Yields** - DeFi yield farming opportunities
 - ⛓️ **Chains** - Blockchain TVL comparison
