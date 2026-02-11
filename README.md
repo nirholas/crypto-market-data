@@ -1,4 +1,4 @@
-# Crypto Market Data
+# Crypto Market Data 
  
 Live cryptocurrency and DeFi market dashboard with data from CoinGecko and DeFiLlama.
  
