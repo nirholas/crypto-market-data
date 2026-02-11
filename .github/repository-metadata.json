@@ -1,0 +1,15 @@
+{
+    "name": "crypto-market-data",
+    "description": "Live cryptocurrency and DeFi market data. Simple, easy, straight to the point.  Market data from CoinGecko \u2022  Originally built within Lyra Web3 Playground https://github.com/nirholas/lyra-web3-playground - ",
+    "version": "1.0.0",
+    "publisher": "nirholas",
+    "repository": "https://github.com/nirholas/crypto-market-data",
+    "language": "TypeScript",
+    "topics": [
+        "crypto",
+        "nirholas",
+        "market",
+        "open-source",
+        "data"
+    ]
+}

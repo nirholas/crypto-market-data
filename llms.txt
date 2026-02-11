@@ -1,0 +1,9 @@
+# crypto-market-data
+
+> Live cryptocurrency and DeFi market data. Simple, easy, straight to the point.  Market data from CoinGecko •  Originally built within Lyra Web3 Playground https://github.com/nirholas/lyra-web3-playground - 
+
+## Links
+
+- Repository: https://github.com/nirholas/crypto-market-data
+- Author: https://github.com/nirholas
+- Full documentation: https://raw.githubusercontent.com/nirholas/crypto-market-data/main/llms-full.txt

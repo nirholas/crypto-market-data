@@ -1,0 +1,18 @@
+# crypto-market-data
+
+> Live cryptocurrency and DeFi market data. Simple, easy, straight to the point.  Market data from CoinGecko •  Originally built within Lyra Web3 Playground https://github.com/nirholas/lyra-web3-playground - 
+
+## Overview
+
+crypto-market-data is an open-source project by nirholas. Live cryptocurrency and DeFi market data. Simple, easy, straight to the point.  Market data from CoinGecko •  Originally built within Lyra Web3 Playground https://github.com/nirholas/lyra-web3-playground - 
+
+## Repository
+
+- URL: https://github.com/nirholas/crypto-market-data
+- Language: TypeScript
+- License: MIT
+- Author: nirholas
+
+## Contributing
+
+Contributions are welcome. See CONTRIBUTING.md for guidelines.
