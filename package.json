@@ -1,14 +1,14 @@
 {
-  "name": "lyra-web3-playground",
+  "name": "crypto-market-data",
   "version": "0.1.0",
-  "description": "Lyra Web3 Playground - Learn blockchain development with interactive examples. Compile and deploy Solidity in your browser.",
+  "description": "Live cryptocurrency and DeFi market dashboard with data from CoinGecko and DeFiLlama",
   "author": {
     "name": "nich",
     "url": "https://github.com/nirholas"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nirholas/lyra-web3-playground.git"
+    "url": "https://github.com/nirholas/crypto-market-data.git"
   },
   "homepage": "https://lyra.works/",
   "type": "module",
