@@ -53,3 +53,10 @@ See [`mcp-server/README.md`](mcp-server/README.md) for the full tool list, build
 ## License
 
 All rights reserved. See [LICENSE](LICENSE).
+
+## Documentation
+
+Full documentation site: **https://nirholas.github.io/crypto-market-data/**
+
+- [Getting started](docs/getting-started.md) covers install and first run.
+- [Examples](docs/examples.md) has copy-paste snippets.
