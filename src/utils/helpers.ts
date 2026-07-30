@@ -81,36 +81,3 @@ export function formatDate(date: Date | string): string {
     minute: '2-digit',
   }).format(d);
 }
-
-/**
- * Generate a mock Ethereum address for demo purposes
- */
-export function generateMockAddress(): string {
-  const hex = '0x' + Array.from({ length: 40 }, () => 
-    Math.floor(Math.random() * 16).toString(16)
-  ).join('');
-  return hex;
-}
-
-/**
- * Generate a mock transaction hash for demo purposes
- */
-export function generateMockTxHash(): string {
-  const hex = '0x' + Array.from({ length: 64 }, () => 
-    Math.floor(Math.random() * 16).toString(16)
-  ).join('');
-  return hex;
-}
-
-/**
- * Generate a mock IPFS hash (CIDv1 format) for demo purposes
- */
-export function generateMockIPFSHash(): string {
-  // CIDv1 format: base58btc encoding of multihash
-  // Simplified version for demo - real CIDs are more complex
-  const chars = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz';
-  const length = 46; // Typical CIDv1 length
-  return 'Qm' + Array.from({ length: length - 2 }, () => 
-    chars[Math.floor(Math.random() * chars.length)]
-  ).join('');
-}

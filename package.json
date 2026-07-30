@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/nirholas/crypto-market-data.git"
   },
-  "homepage": "https://lyra.works/",
+  "homepage": "https://nirholas.github.io/crypto-market-data/",
   "type": "module",
   "scripts": {
     "dev": "vite",
