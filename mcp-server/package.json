@@ -16,7 +16,7 @@
   "author": "nich <nirholas@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0"
+    "@modelcontextprotocol/sdk": "^1.32.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
