@@ -9,7 +9,8 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/crypto-market-data/',
+  // Served from the domain root (Cloudflare Pages). Set BASE_PATH to host under a sub-path.
+  base: process.env.BASE_PATH || '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

@@ -2,7 +2,7 @@
 
 A [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server that gives AI assistants live cryptocurrency and DeFi market data from the public [CoinGecko](https://www.coingecko.com) and [DeFiLlama](https://defillama.com) APIs. No API keys required.
 
-It runs over stdio and works with any MCP client: Claude Desktop, Claude Code, Cursor, and others. It is the companion to the [Crypto Market Data dashboard](https://nirholas.github.io/crypto-market-data/) in the parent repo.
+It runs over stdio and works with any MCP client: Claude Desktop, Claude Code, Cursor, and others. It is the companion to the [Crypto Market Data dashboard](https://crypto-market-data.modelcontextprotocol.name/) in the parent repo.
 
 ## Tools
 

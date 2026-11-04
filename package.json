@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/nirholas/crypto-market-data.git"
   },
-  "homepage": "https://nirholas.github.io/crypto-market-data/",
+  "homepage": "https://crypto-market-data.modelcontextprotocol.name/",
   "type": "module",
   "scripts": {
     "dev": "vite",

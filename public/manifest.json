@@ -2,7 +2,7 @@
   "name": "Crypto Market Data",
   "short_name": "Markets",
   "description": "Live cryptocurrency and DeFi market dashboard",
-  "start_url": "/crypto-market-data/",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#111827",
   "theme_color": "#6366f1",

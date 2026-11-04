@@ -5,11 +5,11 @@
 <!-- /three.ws:badges -->
 
 
-**Live dashboard: [https://nirholas.github.io/crypto-market-data/](https://nirholas.github.io/crypto-market-data/)**
+**Live dashboard: [https://crypto-market-data.modelcontextprotocol.name/](https://crypto-market-data.modelcontextprotocol.name/)**
 
 Live cryptocurrency and DeFi market dashboard with data from CoinGecko and DeFiLlama.
 
-Cryptocurrency prices and market data. That's it! With a basic UI. I originally built this within [Lyra Web3 Playground](https://nirholas.github.io/crypto-market-data) and I thought it might be helpful for those looking for something very simple, a good learning experience to build + deploy, or maybe you're like me and just enjoy building and sharing simple yet useful creations. Live data, hooked up to CoinGecko and Defillama.
+Cryptocurrency prices and market data. That's it! With a basic UI. I originally built this within [Lyra Web3 Playground](https://github.com/nirholas/lyra-web3-playground) and I thought it might be helpful for those looking for something very simple, a good learning experience to build + deploy, or maybe you're like me and just enjoy building and sharing simple yet useful creations. Live data, hooked up to CoinGecko and Defillama.
 
 ## Features
 
@@ -33,15 +33,23 @@ npm run dev
 npm run build
 ```
 
-## Deploy to GitHub Pages
+## Deploy
 
-Pushes to `main` are built and deployed automatically by the GitHub Actions workflow in [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml). The live site is at [nirholas.github.io/crypto-market-data](https://nirholas.github.io/crypto-market-data/).
+The dashboard is a static Vite build hosted on Cloudflare Pages (project `crypto-market-data`) at [https://crypto-market-data.modelcontextprotocol.name](https://crypto-market-data.modelcontextprotocol.name/).
 
-To build and host the static output yourself:
+[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) builds and deploys on every push to `main`. It needs the `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` repository secrets. To deploy by hand with those variables exported:
 
 ```bash
-npm run build
-# Serve or upload the dist/ folder
+npm ci && npm run build
+npx wrangler@4 pages deploy dist --project-name=crypto-market-data --branch=main
+```
+
+`public/_headers` sets the security headers and long-lived caching for `/assets/*`. Cloudflare Pages serves `index.html` for unknown paths, so client-side routes work without a `404.html`. To host under a sub-path, set `BASE_PATH` (for example `BASE_PATH=/crypto-market-data/`) before building.
+
+Verify:
+
+```bash
+curl -sI https://crypto-market-data.modelcontextprotocol.name/ | head -1   # HTTP/2 200
 ```
 
 ## MCP Server
@@ -61,7 +69,7 @@ All rights reserved. See [LICENSE](LICENSE).
 
 ## Documentation
 
-Full documentation site: **https://nirholas.github.io/crypto-market-data/**
+Live dashboard: **https://crypto-market-data.modelcontextprotocol.name/**
 
 - [Getting started](docs/getting-started.md) covers install and first run.
 - [Examples](docs/examples.md) has copy-paste snippets.
